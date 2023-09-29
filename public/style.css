@@ -17,11 +17,46 @@ body {
 }
 
 p {
-    font-family: "Comic Sans MS";
-    font-size: 1.5em;
-    color: blueviolet;
-}
+            font-size: 1.5em;
+            font-family: "Comic Sans MS";
+            color: blueviolet;
+
+            color: #FFC0CB; /* Pink color */
+            text-align: center;
+            margin-top: 20px;
+            animation: playfulDisplace 1s ease-in-out infinite alternate;
+        }
+
+        /* Define the animation for <p> tags */
+        @keyframes playfulDisplace {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(5px); /* Adjust the displacement amount as needed */
+            }
+        }
 
 img {
     width: 100%
 }
+
+h2 {
+            font-size: 48px;
+            font-family: "Papyrus", sans-serif;
+            color: #00FF00; /* Neon green color */
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 100px;
+            animation: neonGlow 1s ease-in-out infinite alternate;
+        }
+
+        /* Define the animation */
+        @keyframes neonGlow {
+            0% {
+                text-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00, 0 0 30px #00FF00;
+            }
+            100% {
+                text-shadow: 0 0 20px #00FF00, 0 0 30px #00FF00, 0 0 40px #00FF00;
+            }
+        }
