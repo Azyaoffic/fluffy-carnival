@@ -2,3 +2,12 @@ body {
     background-image: url("https://images.hive.blog/0x0/https://steemitimages.com/DQmRNYunHXXYBTckMAzXzkFu47guxq5raUSrPwEgSLH7SR6/image.png");
     background-repeat: repeat;
 }
+
+.headertable {
+    width: 100%;
+    background-color: black;
+    color: yellowgreen;
+    font-size: 2em;
+    border: 3px dotted yellow;
+    font-family: "Comic Sans MS";
+}
