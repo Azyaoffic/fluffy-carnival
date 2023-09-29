@@ -1,0 +1,23 @@
+body {
+    background-color: #ffffff;
+    font-family: "Times New Roman", sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+header, nav, footer {
+    background-color: #DC1180;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+header h1 {
+    font-size: 24px;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+main {
+    padding: 20px;
+}
