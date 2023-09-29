@@ -11,3 +11,7 @@ body {
     border: 3px dotted yellow;
     font-family: "Comic Sans MS";
 }
+
+.col-3 {
+    width: 33.33333%
+}
